@@ -51,7 +51,7 @@ body{
     top: 0;
     width: 250px;
     margin-top: 60px;
-    background: rgb(152, 48, 255);
+    background: rgb(127, 251, 255);
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
 }
