@@ -1,0 +1,31 @@
+
+body {
+font-size:26px;
+color: rgb(123, 0, 84);
+}
+
+.header{
+    background: rgb(94, 0, 0);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color:beige ;
+    position: relative;
+    font-size: large;
+}
+
+.main{
+    margin-top: 30px;
+   
+    height: 500px;
+    margin-left:400px; 
+    margin-right: 400px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.main p{
+    margin-left: 250px;
+    margin-top: 40px;
+}
+

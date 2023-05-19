@@ -1,0 +1,136 @@
+<html>
+<head>
+    <title>registration form</title>
+    <script>
+        function submitf(){
+            alert("You have successfully registered.");
+        }
+    </script>
+</head>
+<body align="center" text="red" link="green vlink="green" alink="purple" style="background: azure; font-size:20px;">
+    <h1  align=center style="text-shadow:4px 4px 6px royalblue; size:5; color:blue; border-color:green; ">
+        REGISTRATION 
+    </h1>
+
+    <hr color=green size=3><br>
+    <form method="GET">
+        <table  align=center bgcolor=white bordercolor=yellow style="font-size:20px; width:700; height:700;">
+            <tr>
+                <td align=center>
+                    First name : 
+                </td>
+                <td>
+                    <input type="text" name="first_name">
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                    Last name  : 
+                </td>
+                <td>
+                    <input type="text" name="last_name">
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                    Mob no:
+                </td>
+                <td>
+                    <input type="text" name="mob_no">
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                    E-mail :
+                </td>
+                <td>
+                    <input type="email" name="e_mail">
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                    Institute name :
+                </td>
+                <td>
+                    <select name="dropdown">
+                        <option value="AIST" selected> AIST</option>
+                        <option value="AIPS"> AIPS</option>
+                        <option value="SVN">SVN</option>
+                        <option value="BCCI">BCCI</option>
+                        <option value="IIT"> IIT</option>
+                        <option value="BTIRT"> BTIRT</option>
+                        <option value="RGPV"> RGPV</option>
+                        <option value="SAGE"> SAGE</option>
+                        <option value="Prestege college"> Prestege</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align=center>
+                    Gender :</td>
+                    <td>
+                        <input type="radio" name="gender" value="Male">Male<br/>
+                        <input type="radio" name="gender" value="Female">Female<br/>
+                        <input type="radio" name="gender" value="Other">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center>
+                        <label for="fileselect">Photo :</label></td>
+                    <td>
+                        <input type="file" name="upload" id="fileselect">
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center>
+                        DOB :
+                    </td>
+                    <td>
+                        <input type="date" name="dob">
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center>
+                        Hobbies :
+                    </td>
+                    <td>
+                        <input type="checkbox" name="cricket" value="on">cricket</br>
+                        <input type="checkbox" name="programming" value="on">programming</br>
+                        <input type="checkbox" name="traveling" value="on">traveling</br>
+                        <input type="checkbox" name="Reading books" value="on">Reading books</br>
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center>
+                        Address :
+                    </td>
+                    <td>
+                        <textarea rows="3" cols="40" name="address"></textarea><br/><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td align=center>
+                        Description :
+                    </td>
+                    <td>
+                        <textarea rows="6" cols="40" name="description">
+                        </textarea><br/><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        <input type="reset" name="button_" value="Reset">
+                        <a href="Login Page.html">
+                            Already have account
+                        </a><br/><br/>
+                        
+                    </td>
+                    
+                </tr>
+                
+        </table>
+        <br/>
+        <input type="submit" value="Submit" style="width: 80px;border-radius: 15px; background: yellowgreen; color: rgb(0, 93, 50);font-size: large;height: 50px;" onclick="submitf()" >
+    </form>
+</body>
+</html>
