@@ -51,7 +51,7 @@ body{
     top: 0;
     width: 250px;
     margin-top: 60px;
-    background: rgb(91, 204, 229);
+    background: rgb(152, 48, 255);
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
 }
@@ -67,12 +67,12 @@ body{
 }
 
 .menu li{
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(213, 0, 0, 0.5);
     border-bottom: 1px solid;
 }
 
 .menu a{
-    color: rgb(141, 7, 7);
+    color: rgb(172, 0, 123);
     font-size: large;
     font-weight: bolder;
     text-transform: uppercase;
